@@ -26,8 +26,8 @@ node_modules/
 
 # ===== 主题开发文件 =====
 # 忽略 themes 目录下除子模块外的内容
-/themes/
-!/themes/stack/
+# /themes/
+# !/themes/stack/
 
 # ===== 测试文件 =====
 /test/

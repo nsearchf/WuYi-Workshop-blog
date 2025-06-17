@@ -3,7 +3,7 @@
 copyright: "© 2025 悟壹工场"
 baseURL: "https://wu-yi-workshop-blog.vercel.app"
 languageCode: "zh-CN"
-defaultContentLanguage: "zh"
+# defaultContentLanguage: "zh"
 title: "悟壹工场"
 description: "专注于技术分享的博客"  # 站点描述
 theme: "stack"
