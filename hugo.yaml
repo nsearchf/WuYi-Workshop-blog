@@ -1,10 +1,16 @@
-# languageCode: en-us
+copyright: "© 2025 悟壹工场"
 
 # baseURL: "/"                      # 部署后改为 "https://你的域名.vercel.app/"
 baseURL: "https://wu-yi-workshop-blog.vercel.app/"
 languageCode: "zh-CN"
-title: "悟壹工场"
+title: "悟壹工场"                  # 站点标题
+description: "专注于技术分享的博客"  # 站点描述
 theme: "stack"
+
+outputs:
+  home:
+    - HTML
+    - RSS  # 确保启用RSS输出
 
 # 启用主题内置的评论系统（如 Waline）
 params:
