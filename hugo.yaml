@@ -1,0 +1,37 @@
+# languageCode: en-us
+
+baseURL: "/"                      # 部署后改为 "https://你的域名.vercel.app/"
+languageCode: "zh-CN"
+title: "悟壹工场"
+theme: "stack"
+
+# 启用主题内置的评论系统（如 Waline）
+params:
+  # comments:
+  #   enabled: true
+  #   type: "waline"
+  #   serverURL: "https://your-waline-instance.vercel.app/" # 需自行部署 Waline
+
+  home:
+    posts:
+      enable: true  # 启用首页文章列表
+
+menu:
+  main:
+    - identifier: posts
+      name: 技术文章
+      url: /posts/
+      weight: 10
+    - identifier: notes
+      name: 碎片笔记
+      url: /notes/
+      weight: 10
+    - identifier: projects
+      name: 项目案例
+      url: /projects/
+      weight: 10
+
+# 启用 Google Analytics（可选）
+# services:
+#   googleAnalytics:
+#     ID: "G-XXXXXXXXXX"            # 替换为你的 GA4 测量 ID
