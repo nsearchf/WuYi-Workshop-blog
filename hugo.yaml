@@ -1,9 +1,8 @@
-# baseURL: "/"                      # 部署后改为 "https://你的域名.vercel.app/"
 
 copyright: "© 2025 悟壹工场"
+# baseURL: "/"                      # 部署后改为 "https://你的域名.vercel.app/"
 baseURL: "https://wu-yi-workshop-blog.vercel.app"
 languageCode: "zh-CN"
-# defaultContentLanguage: "zh"
 title: "悟壹工场"
 description: "专注于技术分享的博客"  # 站点描述
 theme: "stack"
@@ -25,6 +24,12 @@ params:
   home:
     posts:
       enable: true  # 启用首页文章列表
+
+  sidebar:
+    avatar:
+      enabled: true
+      local: false  # 使用本地图片
+      src: "/images/avatar.png"  # 指向static/images/avatar.png
 
 menu:
   main:
