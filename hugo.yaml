@@ -1,4 +1,3 @@
-
 copyright: "© 2025 悟壹工场"
 # baseURL: "/"                      # 部署后改为 "https://你的域名.vercel.app/"
 baseURL: "https://wu-yi-workshop-blog.vercel.app"
@@ -16,14 +15,19 @@ permalinks:
 
 # 启用主题内置的评论系统（如 Waline）
 params:
-  # comments:
-  #   enabled: true
-  #   type: "waline"
-  #   serverURL: "https://your-waline-instance.vercel.app/" # 需自行部署 Waline
+  comments:
+    enabled: true
+    type: "waline"
+    serverURL: "https://wu-yi-workshop-blog.vercel.app/" # 需自行部署 Waline
+    locale: "zh" # 语言
+    pageview: true # 开启阅读量统计
 
   home:
     posts:
       enable: true  # 启用首页文章列表
+
+  favicon:
+   "/favicon/favicon.ico"
 
   sidebar:
     avatar:
